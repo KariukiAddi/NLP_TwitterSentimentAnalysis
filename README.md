@@ -1,28 +1,33 @@
 # NLP_TwitterSentimentAnalysis
-# Overview
+
+## Overview
 This repository focuses on conducting sentiment analysis on user-generated content related to Android and Apple products. Dive into the world of consumer opinions, feedback, and reviews to gain valuable insights into the perception and sentiment surrounding these two tech giants using Machine learning models.
-# Table of Contents
-Description
-Features
-Installation
-Data Sources
-Data Preprocessing
-Model Training
-Evaluation
-Results
-Technologies Used
-Contributing
-License
+
+## Table of Contents
+- Description
+- Features
+- Installation
+- Data Sources
+- Data Processing
+- Model Training
+- Evaluation
+- Results
+- Technologies Used
+- Contributing
+- License
 
 ## Description
 Our objectives encompass a range of brand-related challenges, all with the common goal of leveraging Twitter data to gain valuable insights. Our diverse audience, including brand managers, marketing strategists, product launch teams, customer support, influencer marketing, and seasonal marketing teams, will collectively benefit from these analyses. We aim to enhance our brand's competitive edge by comparing sentiment and customer perceptions against competitors, evaluate the success of recent product launches, improve customer support through feedback analysis, identify potential brand influencers, and tailor seasonal marketing campaigns to customer sentiment. By addressing these multifaceted aspects of brand management, we seek to maximize our brand's impact and resonate more effectively with our target audience.
+
 ## Features
-Data processing
-Text preprocessing
-Data visualization
-Model training
+- Data processing
+- Text preprocessing
+- Data visualization
+- Model training
+
 ## Installation
 ### Libraries
+```bash
 pip install pandas
 pip install matplotlib
 pip install seaborn
