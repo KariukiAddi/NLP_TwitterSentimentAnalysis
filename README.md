@@ -59,31 +59,31 @@ Model Type: The Sequential Model employs three key layers: the Embedding Layer, 
 
 ## Evaluation & Results
 
-## Technologies Used
+# Technologies Used
 
-This project leverages several technologies and libraries to conduct sentiment analysis on Twitter data related to Android and Apple products:
+### Data Collection and Preprocessing
+- **Pandas**: Pandas is used for data manipulation and analysis. We utilize it to read, clean, and preprocess the Twitter data.
 
-- **Pandas:** Pandas is a powerful library for data manipulation and analysis. It is used to handle and preprocess the dataset effectively.
+### Data Visualization
+- **Matplotlib**: Matplotlib is employed for creating various data visualizations, including plots and charts that help us understand data patterns and trends.
+- **Seaborn**: Seaborn complements Matplotlib by providing an aesthetically pleasing and high-level interface for creating informative and attractive statistical graphics.
 
-- **Matplotlib:** Matplotlib is a popular data visualization library in Python. It is used to create various visualizations for better data understanding.
+### Natural Language Processing (NLP)
+- **NLTK (Natural Language Toolkit)**: NLTK is used for various NLP tasks such as tokenization, removing stopwords, and stemming. It helps us prepare text data for sentiment analysis.
+- **WordCloud**: WordCloud is used to create word clouds, which visually represent the most frequent words in the text data.
+- **Scikit-Learn**: Scikit-Learn provides machine learning tools, including algorithms for sentiment analysis and model evaluation.
+- **TensorFlow and Torch**: These deep learning frameworks are used for building and training neural network models, such as RNN and BERT, for advanced sentiment analysis.
+- **Transformers**: Transformers are specifically used for working with pre-trained models like BERT for text classification.
+- **PyTorch:**. It is a deep learning framework, used for creating and training neural networks.
+### Methodology
+1. **Data Collection**: We gathered user-generated content related to Android and Apple products from Twitter.
+2. **Data Preprocessing**: Pandas, NLTK, and other libraries were used to clean and prepare the data. Text data was tokenized, stopwords were removed, and text was transformed into numerical representations.
+3. **Data Visualization**: Matplotlib and Seaborn helped us visualize data trends and patterns.
+4. **Sentiment Analysis**: Scikit-Learn was used for baseline models like Logistic Regression and Random Forest. TensorFlow and Torch were used for advanced models like RNN and BERT.
+5. **Model Evaluation**: We assessed model performance using accuracy, precision, recall, F1-score, and confusion matrices.
+6. **Insights Generation**: The results of our analysis provide valuable insights into consumer sentiment and perceptions of Android and Apple products.
 
-- **Seaborn:** Seaborn is another data visualization library that works well with Matplotlib. It is used to create more visually appealing and informative plots.
-
-- **NLTK (Natural Language Toolkit):** NLTK is a Python library for working with human language data. It provides tools for text preprocessing, tokenization, and more.
-
-- **WordCloud:** WordCloud is a library for generating word clouds, which are useful for visualizing word frequency in text data.
-
-- **scikit-learn:** Scikit-learn is a machine learning library that provides tools for classification, regression, clustering, and more. It is used for building and evaluating machine learning models.
-
-- **TensorFlow:** TensorFlow is an open-source machine learning framework developed by Google. It is used for building deep learning models, including neural networks.
-
-- **PyTorch:** PyTorch is another popular deep learning framework. It is used for creating and training neural networks.
-
-- **Transformers:** Transformers is a library that provides pre-trained models for natural language understanding and generation. It is used for advanced NLP tasks.
-
-- **NLTK Data:** NLTK requires data resources for certain functionalities. We download additional resources, such as wordnet, punkt, and stopwords, to support text preprocessing.
-
-These technologies and libraries collectively enable us to process, analyze, and model Twitter data effectively, providing valuable insights into sentiment and customer perceptions related to Android and Apple products.
+By employing these technologies and methodologies, we were able to conduct comprehensive sentiment analysis on Twitter data and extract meaningful insights for brand management and marketing strategies.
 
 ## Usage
 Our project serves a wide range of brand-related objectives, catering to diverse audiences across the organization.
