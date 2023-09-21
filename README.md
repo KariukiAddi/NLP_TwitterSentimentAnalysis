@@ -1,5 +1,8 @@
 # NLP_TwitterSentimentAnalysis
 
+## Data Sources
+
+
 ## Overview
 This repository focuses on conducting sentiment analysis on user-generated content related to Android and Apple products. Dive into the world of consumer opinions, feedback, and reviews to gain valuable insights into the perception and sentiment surrounding these two tech giants using Machine learning models.
 
@@ -41,8 +44,6 @@ nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('stopwords')
 
-## Data Sources
-
 
 ## Data Processing & Text Preprocessing
 In data processing, we prepare and clean our dataset for analysis. This involves tasks like handling missing data, removing duplicates, and transforming data into a usable format. It ensures that the data is accurate and ready for analysis. Text preprocessing is specifically applied to text data. It involved tasks like tokenization (breaking text into words or phrases), removing stopwords (common words like "the" or "and"), and stemming (reducing words to their root form). For my case, I used Lemmatization over stemming. Text preprocessing makes text data suitable for natural language processing (NLP) tasks like sentiment analysis or topic modeling.
@@ -59,7 +60,7 @@ Model Type: The Sequential Model employs three key layers: the Embedding Layer, 
 
 ## Evaluation & Results
 
-# Technologies Used
+## Technologies Used
 
 ### Data Collection and Preprocessing
 - **Pandas**: Pandas is used for data manipulation and analysis. We utilize it to read, clean, and preprocess the Twitter data.
