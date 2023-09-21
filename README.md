@@ -13,7 +13,6 @@ This repository focuses on conducting sentiment analysis on user-generated conte
 - Evaluation
 - Results
 - Technologies Used
-- Contributing
 - License
 
 ## Description
@@ -58,7 +57,33 @@ The SVM model achieved an accuracy of 0.69, correctly predicting 69% of instance
 For the final model, I chose an RNN model where:
 Model Type: The Sequential Model employs three key layers: the Embedding Layer, which transforms words into 100-dimensional numerical vectors; the SimpleRNN Layer, which deciphers sequential data patterns into 128-dimensional representations; and the Dense Layer, facilitating decision-making among three categories. In summary, this Sequential Model interprets words, identifies text patterns, and classifies text into categories (e.g., positive, negative, or neutral sentiment) based on extensive training data.
 
-## Evaluation
+## Evaluation & Results
+
+## Technologies Used
+
+This project leverages several technologies and libraries to conduct sentiment analysis on Twitter data related to Android and Apple products:
+
+- **Pandas:** Pandas is a powerful library for data manipulation and analysis. It is used to handle and preprocess the dataset effectively.
+
+- **Matplotlib:** Matplotlib is a popular data visualization library in Python. It is used to create various visualizations for better data understanding.
+
+- **Seaborn:** Seaborn is another data visualization library that works well with Matplotlib. It is used to create more visually appealing and informative plots.
+
+- **NLTK (Natural Language Toolkit):** NLTK is a Python library for working with human language data. It provides tools for text preprocessing, tokenization, and more.
+
+- **WordCloud:** WordCloud is a library for generating word clouds, which are useful for visualizing word frequency in text data.
+
+- **scikit-learn:** Scikit-learn is a machine learning library that provides tools for classification, regression, clustering, and more. It is used for building and evaluating machine learning models.
+
+- **TensorFlow:** TensorFlow is an open-source machine learning framework developed by Google. It is used for building deep learning models, including neural networks.
+
+- **PyTorch:** PyTorch is another popular deep learning framework. It is used for creating and training neural networks.
+
+- **Transformers:** Transformers is a library that provides pre-trained models for natural language understanding and generation. It is used for advanced NLP tasks.
+
+- **NLTK Data:** NLTK requires data resources for certain functionalities. We download additional resources, such as wordnet, punkt, and stopwords, to support text preprocessing.
+
+These technologies and libraries collectively enable us to process, analyze, and model Twitter data effectively, providing valuable insights into sentiment and customer perceptions related to Android and Apple products.
 
 ## Usage
 Our project serves a wide range of brand-related objectives, catering to diverse audiences across the organization.
