@@ -1,7 +1,7 @@
 # NLP_TwitterSentimentAnalysis
 
 ## Data Sources
-
+The data for the project was sourced from Zillow, specifically from the dataset named 'judge-1377884607_tweet_product_company.' This dataset contains tweets related to product companies and may have information about user sentiments and opinions. The data structure typically includes columns for tweet text, product or company mentions, and potentially sentiment labels or other relevant attributes.
 
 ## Overview
 This repository focuses on conducting sentiment analysis on user-generated content related to Android and Apple products. Dive into the world of consumer opinions, feedback, and reviews to gain valuable insights into the perception and sentiment surrounding these two tech giants using Machine learning models.
@@ -59,9 +59,18 @@ For the final model, I chose an RNN model where:
 Model Type: The Sequential Model employs three key layers: the Embedding Layer, which transforms words into 100-dimensional numerical vectors; the SimpleRNN Layer, which deciphers sequential data patterns into 128-dimensional representations; and the Dense Layer, facilitating decision-making among three categories. In summary, this Sequential Model interprets words, identifies text patterns, and classifies text into categories (e.g., positive, negative, or neutral sentiment) based on extensive training data.
 
 ## Evaluation & Results
+Recommendations:
+- Battery Life Improvement: Focus on improving battery life for Apple products, addressing a key weakness highlighted in the analysis.
+- Customer Support Enhancement: Apple's customer support teams should address the identified pain points to enhance customer satisfaction.
+- Influencer Engagement: Leverage influencers who have positive sentiments towards your products to amplify brand messaging and reach a wider audience.
+- Competitor Benchmarking: Regularly benchmark against competitors to understand their strengths and weaknesses, enabling the development of differentiated and superior products.Apple may learn a couple of thing such as 
+  healthy battery life consumption from Android.
+- Sentiment Monitoring: Implement real-time sentiment monitoring to quickly address emerging issues, capitalize on positive trends, and stay ahead of the competition.
+- Seasonal Campaign Customization: Tailor seasonal marketing campaigns to align with customer sentiment during specific events or holidays.
+Conclusion:
+In conclusion, our sentiment analysis revealed valuable insights into consumer perceptions of Android and Apple products. We identified strengths, weaknesses, and areas for improvement. The competitive analysis highlighted opportunities to gain a competitive edge.
 
 ## Technologies Used
-
 ### Data Collection and Preprocessing
 - **Pandas**: Pandas is used for data manipulation and analysis. We utilize it to read, clean, and preprocess the Twitter data.
 
@@ -85,6 +94,7 @@ Model Type: The Sequential Model employs three key layers: the Embedding Layer, 
 6. **Insights Generation**: The results of our analysis provide valuable insights into consumer sentiment and perceptions of Android and Apple products.
 
 By employing these technologies and methodologies, we were able to conduct comprehensive sentiment analysis on Twitter data and extract meaningful insights for brand management and marketing strategies.
+
 
 ## Usage
 Our project serves a wide range of brand-related objectives, catering to diverse audiences across the organization.
